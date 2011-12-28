@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Diego Vargas" />
+    
+    <link rel="stylesheet"
+	  type="text/css"
+	  href="/stylesheets/brown_style.css"
+	  title="brown coop style sheet">
+
+    <link rel="icon"
+	  type="image/jpeg" 
+	  href="/images/favicon.jpeg">
+
+    <title>{{ page.title }}</title>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-25618246-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+  </head>
+
+  <body>
+    <div id='container'>
+
+    <header>
+      <nav>
+	
+      <img src='/images/brown_banner.gif'>
+
+      <div name='menu_bar'>
+
+      {% if page.title == 'Home' %}
+      <span class='menu_item_active'><a href='/'>Home</a></span>
+      {% else  %}
+      <span class='menu_item_inactive'><a href='/'>Home</a></span>
+      {% endif %}
+
+      {% if page.title == 'About' %}
+      <span class='menu_item_active'><a href='/about.html'>About</a></span>
+      {% else  %}
+      <span class='menu_item_inactive'><a href='/about.html'>About</a></span>
+      {% endif %}
+
+      {% if page.title == 'Members' %}
+      <span class='menu_item_active'><a href='/members.html'>Members</a></span>
+      {% else  %}
+      <span class='menu_item_inactive'><a href='/members.html'>Members</a></span>
+      {% endif %}
+      
+      </div>
+      </nav>
+
+    </header>
+    
+    <div class='content'>
+    {{ content }}
+    </div>
+    
+    <footer>
+      <div class='footer_info'>
+      <p>copyright Brown Coop 2012 oh yeah</p>
+      </div>
+    </footer>
+
+    </div>
+  </body>
+</html>
