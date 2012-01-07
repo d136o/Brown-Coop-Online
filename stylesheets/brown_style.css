@@ -52,10 +52,14 @@ a {
 }
 
 .content { 
-    padding-bottom: 5em;
+    background-color: rgba(0,0,0,.5);
+    padding: 5px;
+    border-radius: 1em;
+    border-style: solid;
 }
 
 footer{
+    padding-top: 5em;
     text-align: center;
 }
 
