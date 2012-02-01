@@ -58,6 +58,12 @@
       <span class='menu_item_inactive'><a href='/members.html'>Members</a></span>
       {% endif %}
 
+      {% if page.title == 'Questions' %}
+      <span class='menu_item_active'><a href='/faqs.html'>FAQ's</a></span>
+      {% else  %}
+      <span class='menu_item_inactive'><a href='/faqs.html'>FAQ's</a></span>
+      {% endif %}
+
       {% if page.title == 'Contact' %}
       <span class='menu_item_active'><a href='/contact.html'>Contact</a></span>
       {% else  %}

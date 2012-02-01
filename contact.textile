@@ -3,4 +3,4 @@ layout: layout
 title: Contact
 ---
 
-Want to come over for dinner? Have comments, questions or suggestions? Email us at 'info' [ampersand] 'browncoop' [dot] 'org' .
+Want to come over for dinner? Have comments, questions or suggestions? Email us at 'info' [ampersat] 'browncoop' [dot] 'org' .
