@@ -40,7 +40,7 @@
 
       <div name='menu_bar'>
 
-      {% if page.title == 'Home' %}
+      {% if page.title == 'The Brown Coop :)' %}
       <span class='menu_item_active'><a href='/'>Home</a></span>
       {% else  %}
       <span class='menu_item_inactive'><a href='/'>Home</a></span>
@@ -50,6 +50,12 @@
       <span class='menu_item_active'><a href='/about.html'>About</a></span>
       {% else  %}
       <span class='menu_item_inactive'><a href='/about.html'>About</a></span>
+      {% endif %}
+
+      {% if page.title == 'coop pics' %}
+      <span class='menu_item_active'><a href='/pics.html'>Pics</a></span>
+      {% else  %}
+      <span class='menu_item_inactive'><a href='/pics.html'>Pics</a></span>
       {% endif %}
 
       {% if page.title == 'Members' %}

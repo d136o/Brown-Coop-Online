@@ -4,7 +4,7 @@ layout: layout
 ---
 
 Q: I've got a few formulas I want to include in my JP/Thesis, what can I do?
-A: Latex
+A: LaTeX
 
 Q: Do I have to live in Brown Hall to be in the Brown Coop?
 A: No.

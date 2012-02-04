@@ -30,12 +30,16 @@ div#container {
 
 header {
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
     padding-top: 50px;
     padding-bottom: 20px;
 }
 
-.menu_item_inactive a {
+a {
+    color: white;
+}
+
+.menu_item_inactive  {
     font-weight: bold;
     color: white;
     text-decoration: none;
@@ -48,11 +52,15 @@ header {
     
 }
 
-.menu_item_active a {
+.menu_item_inactive a {
+    text-decoration: none;
+}
+
+.menu_item_active {
     font-weight: bold;
     color: #F0F0F0;
     
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(255,255,255,.75);
     text-decoration: none;
     padding: 2px;
     border-style: dashed;
@@ -60,8 +68,9 @@ header {
     border-radius: .2em;
 }
 
-a {
-    color: white;
+.menu_item_active a {
+    color: black;
+    text-decoration: none;
 }
 
 .content { 
